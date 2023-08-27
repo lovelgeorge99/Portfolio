@@ -27,7 +27,7 @@ function Contact() {
       
   };
   return (
-    <div id='contact' className='sm:container m-5'>
+    <div id='contact' className='sm:container m-5 mx-auto'>
       <h1 className='text-5xl font-bold text-center text-[#02aab0]'>Get In Touch</h1>
      
       <div className='mx-auto bg-black w-64 block h-1 m-3' ></div>

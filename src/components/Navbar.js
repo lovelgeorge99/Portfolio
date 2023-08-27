@@ -73,7 +73,7 @@ function Navbar() {
       <div className='md:flex flex-wrap items-center justify-around   py-3 md:px-7 px-7'>
       <a  class="flex items-center justify-center">
             {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" /> */}
-             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">LovelGeorge.com</span>
+             <span class="self-center text-2xl font-semibold whitespace-nowrap ">LovelGeorge.com</span>
         </a>
 
        <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>

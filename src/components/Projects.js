@@ -15,8 +15,9 @@ function Projects() {
       </div>
      <div class="xl:basis-1/4 p-0 md:pt-16 ">
       <h1 className='text-3xl mb-5'>Full Stack Blog Website</h1>
-      <p className='font-sans  font-light mb-5'>
-      Test Project - Used ContextApi, created local db and passed the data via ContextApi to testimonials. Used boostrap, styled-components. The navigation is sticky and hide on scroll down and show back on scroll up. I used some reusable componenents. The app is fully responsive.
+      <p className='font-sans   mb-5'>
+      Designed and developed a full-stack blog website using <b>React</b> and <b>Django</b>. Implemented <b> JWT  authentication </b> and implemenmted <b>Redux</b> for 
+       state management. Deployed the application in <b>Docker</b> inside my own home lab
       </p>
       <button type="button" class="font-extrabold text-[#00cdac] hover:text-white hover:bg-[#00cdac] bg-white] border border-[#00cdac] rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
         See Live Demo
