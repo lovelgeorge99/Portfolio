@@ -40,8 +40,8 @@ function Banner() {
       <Typed className='text-3xl'
   
         strings={[
-          "I am a full-stack web developer",
-          "",
+          "I am a full-stack  developer",
+          " Skilled in MERN Stack & Django React",
         ]}
         typeSpeed={150}
         backSpeed={100}
