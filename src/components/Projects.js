@@ -28,14 +28,14 @@ function Projects() {
         </a>
      </div>
      <div class="xl:basis-2/4  xl:p-16 hover:scale-110 hover:skew-x-1 transition-all ease-in duration-300 ">
-      <img className=' shadow-md w-full border' src={expense} />
+      <img className=' shadow-md w-full border mb-16 md:mb-0' src={expense}  />
       </div>
     
         </div>
 
         <div class="flex flex-wrap-reverse justify-center m-10 xl:m-0">
       <div class="xl:basis-2/4  xl:p-16 hover:scale-110 hover:skew-x-1 transition-all ease-in duration-300 ">
-      <img className='shadow-md w-full border' src={blogImage} />
+      <img className='shadow-md w-full border mb-16 md:mb-0' src={blogImage} />
       </div>
      <div class="xl:basis-1/4 p-0 md:pt-16 ">
       <h1 className='text-3xl mb-5'>Full Stack Blog Website</h1>
@@ -70,14 +70,14 @@ function Projects() {
         </a>
      </div>
      <div class="xl:basis-2/4  xl:p-16 hover:scale-110 hover:skew-x-1 transition-all ease-in duration-300 ">
-      <img className=' shadow-md w-full border' src={news} />
+      <img className=' shadow-md w-full border mb-16 md:mb-0' src={news} />
       </div>
     
         </div>
 
         <div class="flex flex-wrap-reverse justify-center m-10 xl:m-0">
       <div class="md:basis-2/4  md:p-16 hover:scale-110 hover:skew-x-1 transition-all ease-in duration-300 ">
-      <img className='shadow-md w-full border' src={prediction} />
+      <img className='shadow-md w-full border mb-16 md:mb-0' src={prediction} />
       </div>
      <div class="md:basis-1/4 p-0 md:pt-16 ">
       <h1 className='text-3xl mb-5'>House Price Prediction (Linear Regression)</h1>
@@ -111,7 +111,7 @@ function Projects() {
         </a>
      </div>
      <div class="xl:basis-2/4  xl:p-16 hover:scale-110 hover:skew-x-1 transition-all ease-in duration-300 ">
-      <img className=' shadow-md w-full border' src={opencv} />
+      <img className=' shadow-md w-full border mb-16 md:mb-0' src={opencv} />
       </div>
     
         </div>
@@ -119,7 +119,7 @@ function Projects() {
 
         <div class="flex flex-wrap-reverse justify-center m-10 xl:m-0">
       <div class="md:basis-2/4  md:p-16 hover:scale-110 hover:skew-x-1 transition-all ease-in duration-300 ">
-      <img className='shadow-md w-full border' src={otthub} />
+      <img className='shadow-md w-full border mb-16 md:mb-0' src={otthub} />
       </div>
      <div class="md:basis-1/4 p-0 md:pt-16 ">
       <h1 className='text-3xl mb-5'>Freelancing Project For customer</h1>

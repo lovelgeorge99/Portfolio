@@ -11,27 +11,7 @@ function AboutMe() {
          
 
 
-         {/* <div class="  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-             <div  class="border-t border-gray-200 dark:border-gray-600">
 
-                 <marquee>
-                 <div class=" bg-white rounded-lg  dark:bg-gray-800" id="stats" role="tabpanel" aria-labelledby="stats-tab">
-                     <dl class="grid  grid-cols-2 gap-4  mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-10 dark:text-white sm:p-8">
-                         {
-                             skills.map((skill)=>(
-                             <div class="flex flex-col items-center justify-center">
-                                     <dt class={`mb-2 ${skill.size} font-extrabold ${skill.color}`}>{skill.icon}</dt>
-                                     <dd class="text-gray-500 dark:text-gray-400">{skill.name}</dd>
-                             </div>
-                             ))
-                         }
-                     </dl>
-                 </div>
-                 </marquee>
-                 
-                 
-             </div>
-         </div> */}
 
 
       </div>
@@ -51,7 +31,7 @@ function AboutMe() {
          </div>
                <div className='center w-auto md:basis-1/3 m-5   border-black'>
      
-        <div className='text-lg auto   mx-auto p-5 font-light' >
+        <div className='text-lg auto   mx-auto md:p-5 font-light' >
           <h1 className=' font-extrabold text-[#02aab0]'>A full stack developer currently based in Montreal,Canada.</h1>
           <span className='text-gray-500 dark:text-gray-500 font-bold'>
           I am a full-stack web developer versed in <b> MERN </b>and <b>Django-React</b> setups. My passion for tinkering comes to life in my homelab, where I explore new possibilities.

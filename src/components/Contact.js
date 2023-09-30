@@ -35,7 +35,7 @@ function Contact() {
       <div className='flex justify-center'>
     
       <form ref={form} onSubmit={sendEmail} class="w-full max-w-lg">
-  <div class="flex flex-wrap -mx-3 mb-6">
+  <div class="flex flex-wrap  mb-6">
     <div class="w-full md:w-2/2 px-3 mb-6 md:mb-0">
       <label class="block uppercase text-[#00cdac] tracking-wide  text-xs font-bold mb-2" for="grid-first-name">
        Full Name
