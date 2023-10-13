@@ -15,7 +15,7 @@ function Navbar() {
 
   ];
   window.addEventListener("scroll", function() {
-    var navbar = document.getElementById("navbar");
+    const navbar = document.getElementById("navbar");
     if (window.scrollY > 0) {
       navbar.classList.add("shadow-md");
       navbar.classList.add("bg-opacity-100");
@@ -34,9 +34,9 @@ function Navbar() {
     
     <nav id="navbar" className=' w-full z-10 left-0 fixed bg-opacity-0  text-[#14142b] font-extrabold' >
       <div className='md:flex flex-wrap items-center justify-around   py-3 md:px-7 px-7'>
-      <a  class="flex items-center justify-center">
+      <a  className="flex items-center justify-center">
             {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" /> */}
-             <span class="self-center text-2xl font-semibold whitespace-nowrap ">LovelGeorge.com</span>
+             <span className="self-center text-2xl font-semibold whitespace-nowrap ">LovelGeorge.com</span>
         </a>
 
        <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>

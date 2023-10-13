@@ -15,22 +15,22 @@ function Certifications() {
       </h2>   
 <div class="grid grid-cols-2 md:grid-cols-3 gap-5 m-5">
     <div>
-        <img class="h-auto max-w-full rounded-lg" src={c1} alt="" />
+        <img className="h-auto max-w-full rounded-lg" src={c1} alt="" />
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src={c2} alt=""/>
+        <img className="h-auto max-w-full rounded-lg" src={c2} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src={c3} alt=""/>
+        <img className="h-auto max-w-full rounded-lg" src={c3} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src={c4} alt=""/>
+        <img className="h-auto max-w-full rounded-lg" src={c4} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src={c5} alt=""/>
+        <img className="h-auto max-w-full rounded-lg" src={c5} alt=""/>
     </div>
     <div>
-        <img class="h-auto max-w-full rounded-lg" src={c6} alt=""/>
+        <img className="h-auto max-w-full rounded-lg" src={c6} alt=""/>
     </div>
     
     

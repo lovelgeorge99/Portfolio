@@ -4,6 +4,7 @@ import mypic from '../images/mypic.jpg'
 import java from '../images/java.png'
 import server from '../images/server.png'
 import python from '../images/python.png'
+import resume from '../images/Resume.pdf'
 
 
 function Banner() {
@@ -54,10 +55,11 @@ function Banner() {
 
     
       
-          <button className=" mt-8 bg-white font-extrabold hover:bg-[#00cdac] text-[#00cdac] hover:text-white  hover:shadow-md border border-[#00cdac] py-2 px-4 rounded inline-flex items-center">
-      <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+          <a href={resume} target='_black'>
+            <button className=" mt-8 bg-white font-extrabold hover:bg-[#00cdac] text-[#00cdac] hover:text-white  hover:shadow-md border border-[#00cdac] py-2 px-4 rounded inline-flex items-center">
+      <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
       <span>Resume</span>
-    </button>
+    </button></a>
       </div> 
      <div className='align-center'>
      <img src={mypic} className=" rounded-full border border-black   md:inline-block w-56 md:w-72 m-24 md:text-3xl " alt="My  Pic" />
@@ -71,15 +73,15 @@ function Banner() {
                   
                   
                  
-                  <div class="text-center mt-10 md:mt-0 md:container md:mx-auto">
+                  <div className="text-center mt-10 md:mt-0 md:container md:mx-auto">
                    
-                      <dl class="flex flex-wrap flex-row justify-center md:justify-start">
+                      <dl className="flex flex-wrap flex-row justify-center md:justify-start">
                         <h1 className='text-2xl font-extrabold'>Tech Stacks | </h1>
                      
                           {
                               skills.map((skill)=>(
-                              <div class="flex flex-col px-4 m-1 md:m-0 items-center justify-center">
-                                      <dt class={`mb-2 ${skill.size} font-extrabold ${skill.color}`}>{skill.icon}</dt>
+                              <div className="flex flex-col px-4 m-1 md:m-0 items-center justify-center">
+                                      <dt className={`mb-2 ${skill.size} font-extrabold ${skill.color}`}>{skill.icon}</dt>
                                       <dt className='font-bold  text-sm'>{skill.name}</dt>
                                      
                               </div>
