@@ -1,4 +1,5 @@
-name: Docker Image CI
+
+name: CICD
 
 on:
   push:
@@ -7,12 +8,14 @@ on:
     branches: [ "master" ]
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the Docker image
-      # run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      - name: Checkout Source
+        uses: actions/checkout@v3
+      - name: Login to Docker Hub
+        run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build Docker Image
+        run: docker build -t lovelgeorge/Portfolio .
+      - name: Publish image to docker hub
+        run: docker push lovelgeorge/portfolio:latest   
