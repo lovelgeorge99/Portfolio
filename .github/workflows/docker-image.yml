@@ -16,6 +16,6 @@ jobs:
       - name: Login to Docker Hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
       - name: Build Docker Image
-        run: docker build -t lovelgeorge/Portfolio .
+        run: docker build -t lovelgeorge/portfolio .
       - name: Publish image to docker hub
         run: docker push lovelgeorge/portfolio:latest   
