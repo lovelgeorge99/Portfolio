@@ -1,7 +1,7 @@
 import React from 'react'
 import news from '../images/news.png'
 import prediction from '../images/prediction.png'
-import blogImage from '../images/blogImage.png'
+import housing from '../images/hosuing.png'
 import otthub from '../images/otthub.png'
 import expense from '../images/expense.png'
 import opencv from '../images/opencv.gif'
@@ -35,13 +35,13 @@ function Projects() {
 
         <div className="flex flex-wrap-reverse justify-center m-10 xl:m-0">
       <div className="xl:basis-2/4  xl:p-16 hover:scale-110 hover:skew-x-1 transition-all ease-in duration-300 ">
-      <img className='shadow-md w-full border mb-16 md:mb-0' src={blogImage} />
+      <img className='shadow-md w-full border mb-16 md:mb-0' src={housing} />
       </div>
      <div className="xl:basis-1/4 p-0 md:pt-16 ">
-      <h1 className='text-3xl mb-5'>Full Stack Blog Website</h1>
+      <h1 className='text-3xl mb-5'>MTL Housing</h1>
       <p className='font-sans   mb-5'>
-      Designed and developed a full-stack blog website using <b>React</b> and <b>Django</b>. Implemented <b> JWT  authentication </b> and implemenmted <b>Redux</b> for 
-       state management. Deployed the application in <b>Docker</b> inside my own home lab
+      Designed and developed a full-stack real estate marketplace website using <b>MERN Stack</b> and <b>Socket.io</b>. Implemented <b> JWT  authentication </b> and implemenmted <b>Redux</b> for 
+       state management. Implemented real time sealmess chatting features enabling users to chat wiht each other. This is currently under development to improve user experience.
       </p>
       <a href='https://blog.lovelgeorge.com/' target='_blank'>
       <button type="button" className="font-extrabold text-[#00cdac] hover:text-white hover:bg-[#00cdac] bg-white] border border-[#00cdac] rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
