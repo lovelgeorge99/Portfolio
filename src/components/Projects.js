@@ -43,7 +43,7 @@ function Projects() {
       Designed and developed a full-stack real estate marketplace website using <b>MERN Stack</b> and <b>Socket.io</b>. Implemented <b> JWT  authentication </b> and implemenmted <b>Redux</b> for 
        state management. Implemented real time sealmess chatting features enabling users to chat wiht each other. This is currently under development to improve user experience.
       </p>
-      <a href='https://blog.lovelgeorge.com/' target='_blank'>
+      <a href='https://mtlhosuing.lovelgeorge.com/' target='_blank'>
       <button type="button" className="font-extrabold text-[#00cdac] hover:text-white hover:bg-[#00cdac] bg-white] border border-[#00cdac] rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 ">
         See Live Demo
         </button>
